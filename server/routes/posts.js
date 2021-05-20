@@ -1,9 +1,9 @@
 import express from "express";
+import { getPosts, createPost } from "../controller/posts";
 
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.send("This Display with url along with /posts");
-});
+router.get("/", getPosts);
+router.post("/", createPost);
 
 export default router;
