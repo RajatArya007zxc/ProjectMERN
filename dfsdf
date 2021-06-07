@@ -1,0 +1,62 @@
+[33mcommit 7be52f54dd8d542d59da11f53629701ee7f20111[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: e7cfe76 2be5655
+Author: RajatArya007zxc <rajatarya199zx@gmail.com>
+Date:   Thu May 20 12:31:34 2021 +0530
+
+    Merge branch 'master' of https://github.com/RajatArya007zxc/ProjectMERN into master
+
+[33mcommit e7cfe76494ed8c607516245650f5dd8a7a078665[m
+Merge: dad6808 37327f4
+Author: RajatArya007zxc <rajatarya199zx@gmail.com>
+Date:   Thu May 20 12:30:40 2021 +0530
+
+    Merge branch 'serverSetup' into master
+
+[33mcommit 2be565569be4ba1e5f1b9759d042519dd178a515[m
+Merge: 2b01498 47018ad
+Author: Rajat_Arya <49765903+RajatArya007zxc@users.noreply.github.com>
+Date:   Thu May 20 12:29:39 2021 +0530
+
+    Merge pull request #2 from RajatArya007zxc/clientSetup
+    
+    setup redux
+
+[33mcommit dad68088e1371790cd71a692c662c34ab6a73cac[m
+Merge: 47018ad 2b01498
+Author: RajatArya007zxc <rajatarya199zx@gmail.com>
+Date:   Thu May 20 12:28:54 2021 +0530
+
+    Merge branch 'master' of https://github.com/RajatArya007zxc/ProjectMERN into master
+
+[33mcommit 47018ad9cb3b711485ad197ab5693a37b3a4f540[m[33m ([m[1;31morigin/clientSetup[m[33m, [m[1;32mclientSetup[m[33m)[m
+Author: RajatArya007zxc <rajatarya199zx@gmail.com>
+Date:   Thu May 20 12:25:06 2021 +0530
+
+    setup redux
+
+[33mcommit 37327f409849e660c910998957b3d8ac6f37186f[m[33m ([m[1;31morigin/serverSetup[m[33m, [m[1;32mserverSetup[m[33m)[m
+Author: RajatArya007zxc <rajatarya199zx@gmail.com>
+Date:   Thu May 20 09:56:47 2021 +0530
+
+    add controller,models
+
+[33mcommit 2b01498755ed55734020feb19cdab79335dc1004[m
+Merge: 5e9d2b8 9590db9
+Author: Rajat_Arya <49765903+RajatArya007zxc@users.noreply.github.com>
+Date:   Thu May 20 08:36:11 2021 +0530
+
+    Merge pull request #1 from RajatArya007zxc/serverSetup
+    
+    initial setup of server
+
+[33mcommit 9590db9227c6b87fe42c067f5be52391ac29e9e8[m
+Author: RajatArya007zxc <rajatarya199zx@gmail.com>
+Date:   Thu May 20 08:30:50 2021 +0530
+
+    initial setup of server
+
+[33mcommit 5e9d2b8552dcd1881f1b645b2c3e8cc21defac4b[m
+Author: RajatArya007zxc <rajatarya199zx@gmail.com>
+Date:   Thu May 20 07:47:13 2021 +0530
+
+    Project initialized

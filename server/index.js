@@ -2,15 +2,17 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 
-import PostRouter from "./routes/posts";
+import PostRouter from "./routes/posts.js";
 
 const app = express();
 
-app.use("/posts", PostRouter);
+// app.use("/posts", PostRouter);  makes error
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
+
+app.use("/posts", PostRouter);
 
 // Connection URL
 const connectionURL =

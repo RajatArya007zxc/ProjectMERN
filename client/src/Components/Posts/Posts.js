@@ -4,11 +4,11 @@ import Post from "./Post/Post";
 import useStyles from "./style";
 import { Grid, CircularProgress } from "@material-ui/core";
 
-export default function Posts() {
+export default function Posts({ setCurrentId }) {
   const classes = useStyles();
 
   const posts = useSelector((state) => state.posts);
-  console.log(posts);
+  // console.log(posts);
   return (
     <>
       {!posts.length ? (
@@ -21,8 +21,8 @@ export default function Posts() {
           spacing={3}
         >
           {posts.map((post) => (
-            <Grid item key={post.id} xs={12} sm={6}>
-              <Post post={post} />
+            <Grid item key={post._id} xs={12} sm={6}>
+              <Post post={post} setCurrentId={setCurrentId} />
             </Grid>
           ))}
         </Grid>
